@@ -2054,9 +2054,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x5a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccNOFb7z.o
- .data          0x0000000000000000        0x0 /tmp/ccNOFb7z.o
- .bss           0x0000000000000000        0x0 /tmp/ccNOFb7z.o
+ .text          0x0000000000000000        0x0 /tmp/ccDnCcAn.o
+ .data          0x0000000000000000        0x0 /tmp/ccDnCcAn.o
+ .bss           0x0000000000000000        0x0 /tmp/ccDnCcAn.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -2367,7 +2367,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccNOFb7z.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccDnCcAn.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3827,466 +3827,466 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .iplt           0x00000000100166e8        0x0
  .iplt          0x00000000100166e8        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x00000000100166e8    0x39828
+.rodata         0x00000000100166e8    0x39830
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x00000000100166e8       0x4f CMakeFiles/picow_connection.dir/connection.c.obj
- *fill*         0x0000000010016737        0x1 
+                0x00000000100166e8       0x53 CMakeFiles/picow_connection.dir/connection.c.obj
+ *fill*         0x000000001001673b        0x1 
  .rodata.spin_lock_claim_unused.str1.4
-                0x0000000010016738       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000010016753        0x1 
+                0x000000001001673c       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x0000000010016757        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x0000000010016754       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001001676f        0x1 
+                0x0000000010016758       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010016773        0x5 
  .rodata.at_the_end_of_time
-                0x0000000010016770        0x8 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010016770                at_the_end_of_time
+                0x0000000010016778        0x8 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010016778                at_the_end_of_time
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010016778       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001001679a        0x2 
+                0x0000000010016780       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100167a2        0x2 
  .rodata.dns_send.str1.4
-                0x000000001001679c       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+                0x00000000100167a4       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
  .rodata.dns_check_entry.str1.4
-                0x00000000100167b4       0x3b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
- *fill*         0x00000000100167ef        0x1 
+                0x00000000100167bc       0x3b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+ *fill*         0x00000000100167f7        0x1 
  .rodata.mem_free.str1.4
-                0x00000000100167f0       0xb6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
- *fill*         0x00000000100168a6        0x2 
+                0x00000000100167f8       0xb6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+ *fill*         0x00000000100168ae        0x2 
  .rodata.mem_trim.str1.4
-                0x00000000100168a8       0x49 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
- *fill*         0x00000000100168f1        0x3 
+                0x00000000100168b0       0x49 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+ *fill*         0x00000000100168f9        0x3 
  .rodata.mem_malloc.str1.4
-                0x00000000100168f4       0x5f CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
- *fill*         0x0000000010016953        0x1 
+                0x00000000100168fc       0x5f CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+ *fill*         0x000000001001695b        0x1 
  .rodata.memp_malloc_pool.str1.4
-                0x0000000010016954       0x37 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
- *fill*         0x000000001001698b        0x1 
+                0x000000001001695c       0x37 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+ *fill*         0x0000000010016993        0x1 
  .rodata.memp_free_pool.str1.4
-                0x000000001001698c       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010016994       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
  .rodata.memp_PBUF
-                0x00000000100169ac        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169ac                memp_PBUF
+                0x00000000100169b4        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169b4                memp_PBUF
  .rodata.memp_PBUF_POOL
-                0x00000000100169b8        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169b8                memp_PBUF_POOL
+                0x00000000100169c0        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169c0                memp_PBUF_POOL
  .rodata.memp_RAW_PCB
-                0x00000000100169c4        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169c4                memp_RAW_PCB
+                0x00000000100169cc        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169cc                memp_RAW_PCB
  .rodata.memp_REASSDATA
-                0x00000000100169d0        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169d0                memp_REASSDATA
+                0x00000000100169d8        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169d8                memp_REASSDATA
  .rodata.memp_SYS_TIMEOUT
-                0x00000000100169dc        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169dc                memp_SYS_TIMEOUT
+                0x00000000100169e4        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169e4                memp_SYS_TIMEOUT
  .rodata.memp_TCP_PCB
-                0x00000000100169e8        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169e8                memp_TCP_PCB
+                0x00000000100169f0        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169f0                memp_TCP_PCB
  .rodata.memp_TCP_PCB_LISTEN
-                0x00000000100169f4        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x00000000100169f4                memp_TCP_PCB_LISTEN
+                0x00000000100169fc        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x00000000100169fc                memp_TCP_PCB_LISTEN
  .rodata.memp_TCP_SEG
-                0x0000000010016a00        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010016a00                memp_TCP_SEG
+                0x0000000010016a08        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010016a08                memp_TCP_SEG
  .rodata.memp_UDP_PCB
-                0x0000000010016a0c        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010016a0c                memp_UDP_PCB
+                0x0000000010016a14        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010016a14                memp_UDP_PCB
  .rodata.memp_pools
-                0x0000000010016a18       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
-                0x0000000010016a18                memp_pools
+                0x0000000010016a20       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+                0x0000000010016a20                memp_pools
  .rodata.netif_do_set_ipaddr.str1.4
-                0x0000000010016a3c       0x10 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+                0x0000000010016a44       0x10 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
  .rodata.netif_add.str1.4
-                0x0000000010016a4c       0x42 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
- *fill*         0x0000000010016a8e        0x2 
+                0x0000000010016a54       0x42 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+ *fill*         0x0000000010016a96        0x2 
  .rodata.pbuf_free.part.0.str1.4
-                0x0000000010016a90       0x2a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016aba        0x2 
+                0x0000000010016a98       0x2a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016ac2        0x2 
  .rodata.pbuf_alloc.str1.4
-                0x0000000010016abc       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016ad7        0x1 
+                0x0000000010016ac4       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016adf        0x1 
  .rodata.pbuf_realloc.str1.4
-                0x0000000010016ad8       0x65 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016b3d        0x3 
+                0x0000000010016ae0       0x65 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016b45        0x3 
  .rodata.pbuf_add_header.str1.4
-                0x0000000010016b40        0xa CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016b4a        0x2 
+                0x0000000010016b48        0xa CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016b52        0x2 
  .rodata.pbuf_ref.str1.4
-                0x0000000010016b4c       0x12 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016b5e        0x2 
+                0x0000000010016b54       0x12 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016b66        0x2 
  .rodata.pbuf_cat.str1.4
-                0x0000000010016b60       0x2d CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016b8d        0x3 
+                0x0000000010016b68       0x2d CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016b95        0x3 
  .rodata.pbuf_copy_partial_pbuf.str1.4
-                0x0000000010016b90       0x33 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016bc3        0x1 
+                0x0000000010016b98       0x33 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016bcb        0x1 
  .rodata.pbuf_take.str1.4
-                0x0000000010016bc4       0x2e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016bf2        0x2 
+                0x0000000010016bcc       0x2e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016bfa        0x2 
  .rodata.pbuf_coalesce.str1.4
-                0x0000000010016bf4       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- *fill*         0x0000000010016c05        0x3 
+                0x0000000010016bfc       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ *fill*         0x0000000010016c0d        0x3 
  .rodata.raw_input.str1.4
-                0x0000000010016c08       0x49 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
- *fill*         0x0000000010016c51        0x3 
+                0x0000000010016c10       0x49 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+ *fill*         0x0000000010016c59        0x3 
  .rodata.tcp_close_shutdown_fin.str1.4
-                0x0000000010016c54        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x0000000010016c5c        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
  .rodata.tcp_free.str1.4
-                0x0000000010016c60       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016c71        0x3 
+                0x0000000010016c68       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016c79        0x3 
  .rodata.tcp_update_rcv_ann_wnd.str1.4
-                0x0000000010016c74       0x3e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016cb2        0x2 
+                0x0000000010016c7c       0x3e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016cba        0x2 
  .rodata.tcp_recved.str1.4
-                0x0000000010016cb4       0x26 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016cda        0x2 
+                0x0000000010016cbc       0x26 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016ce2        0x2 
  .rodata.tcp_slowtmr.str1.4
-                0x0000000010016cdc      0x1c6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016ea2        0x2 
+                0x0000000010016ce4      0x1c6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016eaa        0x2 
  .rodata.tcp_seg_copy.str1.4
-                0x0000000010016ea4       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016ebe        0x2 
+                0x0000000010016eac       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016ec6        0x2 
  .rodata.tcp_pcb_remove.str1.4
-                0x0000000010016ec0       0x87 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016f47        0x1 
+                0x0000000010016ec8       0x87 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016f4f        0x1 
  .rodata.tcp_abandon.str1.4
-                0x0000000010016f48       0x31 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016f79        0x3 
+                0x0000000010016f50       0x31 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016f81        0x3 
  .rodata.tcp_close_shutdown.str1.4
-                0x0000000010016f7c       0x55 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016fd1        0x3 
+                0x0000000010016f84       0x55 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016fd9        0x3 
  .rodata.tcp_next_iss.str1.4
-                0x0000000010016fd4       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010016fee        0x2 
+                0x0000000010016fdc       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010016ff6        0x2 
  .rodata.tcp_eff_send_mss_netif.str1.4
-                0x0000000010016ff0       0x27 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010017017        0x1 
+                0x0000000010016ff8       0x27 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x000000001001701f        0x1 
  .rodata.tcp_backoff
-                0x0000000010017018        0xd CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x0000000010017025        0x3 
+                0x0000000010017020        0xd CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x000000001001702d        0x3 
  .rodata.tcp_pcb_lists
-                0x0000000010017028       0x10 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
-                0x0000000010017028                tcp_pcb_lists
+                0x0000000010017030       0x10 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+                0x0000000010017030                tcp_pcb_lists
  .rodata.tcp_persist_backoff
-                0x0000000010017038        0x7 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
- *fill*         0x000000001001703f        0x1 
+                0x0000000010017040        0x7 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ *fill*         0x0000000010017047        0x1 
  .rodata.tcp_parseopt.str1.4
-                0x0000000010017040       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
- *fill*         0x000000001001705a        0x2 
+                0x0000000010017048       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+ *fill*         0x0000000010017062        0x2 
  .rodata.tcp_oos_insert_segment.str1.4
-                0x000000001001705c       0x25 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
- *fill*         0x0000000010017081        0x3 
+                0x0000000010017064       0x25 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+ *fill*         0x0000000010017089        0x3 
  .rodata.tcp_free_acked_segments.isra.0.str1.4
-                0x0000000010017084       0x48 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x000000001001708c       0x48 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .rodata.tcp_receive.str1.4
-                0x00000000100170cc      0x120 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x00000000100170d4      0x120 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .rodata.tcp_input.str1.4
-                0x00000000100171ec      0x1de CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
- *fill*         0x00000000100173ca        0x2 
+                0x00000000100171f4      0x1de CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+ *fill*         0x00000000100173d2        0x2 
  .rodata.tcp_input
-                0x00000000100173cc       0x28 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+                0x00000000100173d4       0x28 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
  .rodata.tcp_create_segment.str1.4
-                0x00000000100173f4       0x59 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x000000001001744d        0x3 
+                0x00000000100173fc       0x59 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x0000000010017455        0x3 
  .rodata.tcp_output_control_segment.str1.4
-                0x0000000010017450       0x29 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x0000000010017479        0x3 
+                0x0000000010017458       0x29 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x0000000010017481        0x3 
  .rodata.tcp_output_alloc_header.constprop.0.str1.4
-                0x000000001001747c       0x56 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x00000000100174d2        0x2 
+                0x0000000010017484       0x56 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x00000000100174da        0x2 
  .rodata.tcp_split_unsent_seg.str1.4
-                0x00000000100174d4       0x66 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x000000001001753a        0x2 
+                0x00000000100174dc       0x66 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x0000000010017542        0x2 
  .rodata.tcp_send_fin.str1.4
-                0x000000001001753c       0x88 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+                0x0000000010017544       0x88 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_enqueue_flags.str1.4
-                0x00000000100175c4       0xb1 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x0000000010017675        0x3 
+                0x00000000100175cc       0xb1 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x000000001001767d        0x3 
  .rodata.tcp_rexmit_rto_prepare.str1.4
-                0x0000000010017678       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+                0x0000000010017680       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit.str1.4
-                0x000000001001769c       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+                0x00000000100176a4       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_rexmit_fast.str1.4
-                0x00000000100176b4       0x1d CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x00000000100176d1        0x3 
+                0x00000000100176bc       0x1d CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x00000000100176d9        0x3 
  .rodata.tcp_rst.str1.4
-                0x00000000100176d4       0x37 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x000000001001770b        0x1 
+                0x00000000100176dc       0x37 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x0000000010017713        0x1 
  .rodata.tcp_send_empty_ack.str1.4
-                0x000000001001770c       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+                0x0000000010017714       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_output.str1.4
-                0x000000001001772c       0x6b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x0000000010017797        0x1 
+                0x0000000010017734       0x6b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x000000001001779f        0x1 
  .rodata.tcp_rexmit_rto_commit.str1.4
-                0x0000000010017798       0x23 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x00000000100177bb        0x1 
+                0x00000000100177a0       0x23 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x00000000100177c3        0x1 
  .rodata.tcp_rexmit_rto.str1.4
-                0x00000000100177bc       0x1c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+                0x00000000100177c4       0x1c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
  .rodata.tcp_keepalive.str1.4
-                0x00000000100177d8       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x00000000100177f3        0x1 
+                0x00000000100177e0       0x1b CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x00000000100177fb        0x1 
  .rodata.tcp_zero_window_probe.str1.4
-                0x00000000100177f4       0x23 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- *fill*         0x0000000010017817        0x1 
+                0x00000000100177fc       0x23 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ *fill*         0x000000001001781f        0x1 
  .rodata.sys_timeout_abs.str1.4
-                0x0000000010017818       0x3d CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
- *fill*         0x0000000010017855        0x3 
+                0x0000000010017820       0x3d CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+ *fill*         0x000000001001785d        0x3 
  .rodata.sys_timeouts_init.str1.4
-                0x0000000010017858       0x36 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
- *fill*         0x000000001001788e        0x2 
+                0x0000000010017860       0x36 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+ *fill*         0x0000000010017896        0x2 
  .rodata.lwip_cyclic_timers
-                0x0000000010017890       0x30 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
-                0x0000000010017890                lwip_cyclic_timers
+                0x0000000010017898       0x30 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+                0x0000000010017898                lwip_cyclic_timers
  .rodata.udp_input.str1.4
-                0x00000000100178c0       0x4e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
- *fill*         0x000000001001790e        0x2 
+                0x00000000100178c8       0x4e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+ *fill*         0x0000000010017916        0x2 
  .rodata.udp_sendto_if_src.str1.4
-                0x0000000010017910       0x2e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
- *fill*         0x000000001001793e        0x2 
+                0x0000000010017918       0x2e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+ *fill*         0x0000000010017946        0x2 
  .rodata.dhcp_create_msg.str1.4
-                0x0000000010017940       0x40 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000010017948       0x40 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_inc_pcb_refcount.str1.4
-                0x0000000010017980       0x25 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
- *fill*         0x00000000100179a5        0x3 
+                0x0000000010017988       0x25 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+ *fill*         0x00000000100179ad        0x3 
  .rodata.dhcp_option_hostname.isra.0.str1.4
-                0x00000000100179a8       0x95 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
- *fill*         0x0000000010017a3d        0x3 
+                0x00000000100179b0       0x95 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+ *fill*         0x0000000010017a45        0x3 
  .rodata.dhcp_reboot.str1.4
-                0x0000000010017a40       0x76 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
- *fill*         0x0000000010017ab6        0x2 
+                0x0000000010017a48       0x76 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+ *fill*         0x0000000010017abe        0x2 
  .rodata.dhcp_recv.str1.4
-                0x0000000010017ab8       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
- *fill*         0x0000000010017ac9        0x3 
+                0x0000000010017ac0       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+ *fill*         0x0000000010017ad1        0x3 
  .rodata.dhcp_recv
-                0x0000000010017acc      0x1e0 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000010017ad4      0x1e0 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_set_struct.str1.4
-                0x0000000010017cac       0x44 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000010017cb4       0x44 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_inform.str1.4
-                0x0000000010017cf0       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000010017cf8       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.dhcp_network_changed_link_up.str1.4
-                0x0000000010017d14       0x14 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+                0x0000000010017d1c       0x14 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
  .rodata.etharp_find_entry.str1.4
-                0x0000000010017d28       0x41 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
- *fill*         0x0000000010017d69        0x3 
+                0x0000000010017d30       0x41 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+ *fill*         0x0000000010017d71        0x3 
  .rodata.etharp_raw.str1.4
-                0x0000000010017d6c       0x75 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x0000000010017d74       0x75 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
                                          0x85 (size before relaxing)
- *fill*         0x0000000010017de1        0x3 
+ *fill*         0x0000000010017de9        0x3 
  .rodata.etharp_output_to_arp_index.str1.4
-                0x0000000010017de4       0x30 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x0000000010017dec       0x30 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_get_entry.str1.4
-                0x0000000010017e14       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x0000000010017e1c       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_input.str1.4
-                0x0000000010017e34       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+                0x0000000010017e3c       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
  .rodata.etharp_query.str1.4
-                0x0000000010017e58       0x2a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
- *fill*         0x0000000010017e82        0x2 
+                0x0000000010017e60       0x2a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+ *fill*         0x0000000010017e8a        0x2 
  .rodata.etharp_output.str1.4
-                0x0000000010017e84        0xa CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
- *fill*         0x0000000010017e8e        0x2 
+                0x0000000010017e8c        0xa CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+ *fill*         0x0000000010017e96        0x2 
  .rodata.icmp_input.str1.4
-                0x0000000010017e90       0x65 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
- *fill*         0x0000000010017ef5        0x3 
+                0x0000000010017e98       0x65 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+ *fill*         0x0000000010017efd        0x3 
  .rodata.icmp_dest_unreach.str1.4
-                0x0000000010017ef8       0x2c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+                0x0000000010017f00       0x2c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
  .rodata.ip_reass_free_complete_datagram.str1.4
-                0x0000000010017f24       0x7e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
- *fill*         0x0000000010017fa2        0x2 
+                0x0000000010017f2c       0x7e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+ *fill*         0x0000000010017faa        0x2 
  .rodata.ip4_reass.str1.4
-                0x0000000010017fa4       0x4c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+                0x0000000010017fac       0x4c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
  .rodata.ip4_frag.str1.4
-                0x0000000010017ff0       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+                0x0000000010017ff8       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
  .rodata.ip4_output_if.str1.4
-                0x0000000010018010       0x39 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
- *fill*         0x0000000010018049        0x3 
+                0x0000000010018018       0x39 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+ *fill*         0x0000000010018051        0x3 
  .rodata.ip_addr_any
-                0x000000001001804c        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-                0x000000001001804c                ip_addr_any
+                0x0000000010018054        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+                0x0000000010018054                ip_addr_any
  .rodata.ip_addr_broadcast
-                0x0000000010018050        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
-                0x0000000010018050                ip_addr_broadcast
+                0x0000000010018058        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+                0x0000000010018058                ip_addr_broadcast
  .rodata.ethernet_output.str1.4
-                0x0000000010018054       0x31 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
- *fill*         0x0000000010018085        0x3 
+                0x000000001001805c       0x31 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+ *fill*         0x000000001001808d        0x3 
  .rodata.ethbroadcast
-                0x0000000010018088        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-                0x0000000010018088                ethbroadcast
- *fill*         0x000000001001808e        0x2 
- .rodata.ethzero
                 0x0000000010018090        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
-                0x0000000010018090                ethzero
+                0x0000000010018090                ethbroadcast
  *fill*         0x0000000010018096        0x2 
+ .rodata.ethzero
+                0x0000000010018098        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+                0x0000000010018098                ethzero
+ *fill*         0x000000001001809e        0x2 
  .rodata.cyw43_read_bytes.str1.4
-                0x0000000010018098       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x00000000100180a0       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.cyw43_write_bytes.str1.4
-                0x00000000100180b2       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x00000000100180ba       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
                                           0xd (size before relaxing)
- *fill*         0x00000000100180b2        0x2 
- .rodata.spi_gap01_sample0_program
-                0x00000000100180b4        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  *fill*         0x00000000100180ba        0x2 
+ .rodata.spi_gap01_sample0_program
+                0x00000000100180bc        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ *fill*         0x00000000100180c2        0x2 
  .rodata.spi_gap01_sample0_program_instructions
-                0x00000000100180bc        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+                0x00000000100180c4        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
  .rodata.cyw43_kso_set.str1.4
-                0x00000000100180c8       0x23 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100180eb        0x1 
+                0x00000000100180d0       0x23 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x00000000100180f3        0x1 
  .rodata.cyw43_ll_sdpcm_poll_device.str1.4
-                0x00000000100180ec       0x55 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010018141        0x3 
+                0x00000000100180f4       0x55 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010018149        0x3 
  .rodata.cyw43_sdpcm_send_common.str1.4
-                0x0000000010018144       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010018166        0x2 
+                0x000000001001814c       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x000000001001816e        0x2 
  .rodata.cyw43_do_ioctl.str1.4
-                0x0000000010018168       0x55 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100181bd        0x3 
+                0x0000000010018170       0x55 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x00000000100181c5        0x3 
  .rodata.reset_device_core.constprop.0.str1.4
-                0x00000000100181c0       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100181da        0x2 
+                0x00000000100181c8       0x1a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x00000000100181e2        0x2 
  .rodata.cyw43_ll_process_packets.str1.4
-                0x00000000100181dc       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100181fe        0x2 
+                0x00000000100181e4       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010018206        0x2 
  .rodata.cyw43_ll_bus_init.str1.4
-                0x0000000010018200       0xfe CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100182fe        0x2 
+                0x0000000010018208       0xfe CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010018306        0x2 
  .rodata.cyw43_ll_wifi_on.str1.4
-                0x0000000010018300       0x3e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x000000001001833e        0x2 
+                0x0000000010018308       0x3e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x0000000010018346        0x2 
  .rodata.cyw43_ll_wifi_pm.str1.4
-                0x0000000010018340       0x35 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010018375        0x3 
+                0x0000000010018348       0x35 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x000000001001837d        0x3 
  .rodata.cyw43_ll_wifi_join.str1.4
-                0x0000000010018378       0x41 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100183b9        0x3 
+                0x0000000010018380       0x41 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x00000000100183c1        0x3 
  .rodata.cyw43_ll_wifi_ap_init.str1.4
-                0x00000000100183bc       0x31 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x00000000100183ed        0x3 
+                0x00000000100183c4       0x31 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x00000000100183f5        0x3 
  .rodata.cyw43_ll_wifi_ap_set_up.str1.4
-                0x00000000100183f0        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- .rodata        0x00000000100183f4       0x72 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x0000000010018466        0x2 
+                0x00000000100183f8        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .rodata        0x00000000100183fc       0x72 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x000000001001846e        0x2 
  .rodata.w43439A0_7_95_49_00_combined
-                0x0000000010018468    0x36fd8 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+                0x0000000010018470    0x36fd8 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
  .rodata.wifi_nvram_4343
-                0x000000001004f440      0x2e7 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- *fill*         0x000000001004f727        0x1 
+                0x000000001004f448      0x2e7 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ *fill*         0x000000001004f72f        0x1 
  .rodata.cyw43_netif_output.str1.4
-                0x000000001004f728       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
- *fill*         0x000000001004f74a        0x2 
- .rodata.cyw43_cb_tcpip_init.str1.4
-                0x000000001004f74c        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+                0x000000001004f730       0x22 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
  *fill*         0x000000001004f752        0x2 
+ .rodata.cyw43_cb_tcpip_init.str1.4
+                0x000000001004f754        0x6 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+ *fill*         0x000000001004f75a        0x2 
  .rodata.cyw43_cb_process_async_event.str1.4
-                0x000000001004f754       0x28 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x000000001004f75c       0x28 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .rodata.str1.4
-                0x000000001004f77c       0x9e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- *fill*         0x000000001004f81a        0x2 
+                0x000000001004f784       0x9e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ *fill*         0x000000001004f822        0x2 
  .rodata.cyw43_async_event_name_table
-                0x000000001004f81c      0x164 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+                0x000000001004f824      0x164 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
  .rodata.pio_claim_unused_sm.str1.4
-                0x000000001004f980       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x000000001004f988       0x24 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.pio_add_program.str1.4
-                0x000000001004f9a4       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x000000001004f9b5        0x3 
+                0x000000001004f9ac       0x11 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x000000001004f9bd        0x3 
  .rodata.dma_claim_unused_channel.str1.4
-                0x000000001004f9b8       0x1e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- *fill*         0x000000001004f9d6        0x2 
+                0x000000001004f9c0       0x1e CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ *fill*         0x000000001004f9de        0x2 
  .rodata.async_context_threadsafe_background_lock_check.str1.4
-                0x000000001004f9d8       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+                0x000000001004f9e0       0x20 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .rodata.template
-                0x000000001004f9f8       0x38 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+                0x000000001004fa00       0x38 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
  .rodata.panic.str1.4
-                0x000000001004fa30       0x10 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001004fa38       0x10 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x12 (size before relaxing)
  .rodata.hard_assertion_failure.str1.4
-                0x000000001004fa40        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001004fa48        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x000000001004fa4c       0x15 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001004fa61        0x3 
+                0x000000001004fa54       0x15 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001004fa69        0x3 
  .rodata._vsnprintf
-                0x000000001004fa64      0x1e0 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001004fc44        0x4 
+                0x000000001004fa6c      0x1e0 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001004fc4c        0x4 
  .rodata.pow10.5452
-                0x000000001004fc48       0x50 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001004fc50       0x50 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x000000001004fc98       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x000000001004fca0       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x000000001004fcb0       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000000001004fcb8       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                           0x1 (size before relaxing)
  .rodata.str1.4
-                0x000000001004fcb0       0x48 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004fcb8       0x48 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x000000001004fcf8        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004fd00        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x000000001004fd04        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004fd0c        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x000000001004fd10        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001004fd18        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.6086
-                0x000000001004fd1c        0x2 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001004fd1e        0x2 
+                0x000000001004fd24        0x2 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x000000001004fd26        0x2 
  .rodata._resetd_driver
-                0x000000001004fd20       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001004fd28       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x000000001004fd38       0x13 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x000000001004fd4b        0x1 
+                0x000000001004fd40       0x13 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x000000001004fd53        0x1 
  .rodata.__bi_188.7657
-                0x000000001004fd4c        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001004fd54        0xc CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x000000001004fd58       0x2a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001004fd82        0x2 
+                0x000000001004fd60       0x2a CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001004fd8a        0x2 
  .rodata.usbd_desc_cfg
-                0x000000001004fd84       0x54 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001004fd8c       0x54 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x000000001004fdd8       0x12 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001004fdea        0x2 
+                0x000000001004fde0       0x12 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001004fdf2        0x2 
  .rodata.usbd_desc_str
-                0x000000001004fdec       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001004fdf4       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x000000001004fe04       0x14 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001004fe0c       0x14 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x000000001004fe18       0x53 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x000000001004fe6b        0x1 
+                0x000000001004fe20       0x53 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x000000001004fe73        0x1 
  .rodata.tud_task_ext
-                0x000000001004fe6c       0x8c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001004fe74       0x8c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x000000001004fef8       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001004ff10                . = ALIGN (0x4)
+                0x000000001004ff00       0x18 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001004ff18                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x000000001004ff10                . = ALIGN (0x4)
+                0x000000001004ff18                . = ALIGN (0x4)
 
-.rel.dyn        0x000000001004ff10        0x0
- .rel.iplt      0x000000001004ff10        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x000000001004ff18        0x0
+ .rel.iplt      0x000000001004ff18        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000001004ff10                __exidx_start = .
+                0x000000001004ff18                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000000001004ff10                __exidx_end = .
-                0x000000001004ff10                . = ALIGN (0x4)
-                0x000000001004ff10                __binary_info_start = .
+                0x000000001004ff18                __exidx_end = .
+                0x000000001004ff18                . = ALIGN (0x4)
+                0x000000001004ff18                __binary_info_start = .
 
-.binary_info    0x000000001004ff10       0x20
+.binary_info    0x000000001004ff18       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x000000001004ff10        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
-                0x000000001004ff14        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
                 0x000000001004ff18        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
+ .binary_info.keep.__bi_ptr30
                 0x000000001004ff1c        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
+ .binary_info.keep.__bi_ptr38
                 0x000000001004ff20        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
+ .binary_info.keep.__bi_ptr44
                 0x000000001004ff24        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr81
+ .binary_info.keep.__bi_ptr50
                 0x000000001004ff28        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr75
+                0x000000001004ff2c        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr81
+                0x000000001004ff30        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr188
-                0x000000001004ff2c        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x000000001004ff30                __binary_info_end = .
-                0x000000001004ff30                . = ALIGN (0x4)
-                0x000000001004ff30                __etext = .
+                0x000000001004ff34        0x4 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001004ff38                __binary_info_end = .
+                0x000000001004ff38                . = ALIGN (0x4)
+                0x000000001004ff38                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -4295,7 +4295,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000000       0xc0 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0     0x11b0 load address 0x000000001004ff30
+.data           0x00000000200000c0     0x11b0 load address 0x000000001004ff38
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -4474,17 +4474,17 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020001270                __data_end__ = .
 
 .tm_clone_table
-                0x0000000020001270        0x0 load address 0x00000000100510e0
+                0x0000000020001270        0x0 load address 0x00000000100510e8
  .tm_clone_table
                 0x0000000020001270        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020001270        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020001270        0x0 load address 0x00000000100510e0
+.igot.plt       0x0000000020001270        0x0 load address 0x00000000100510e8
  .igot.plt      0x0000000020001270        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020001270       0x20 load address 0x00000000100510e0
+                0x0000000020001270       0x20 load address 0x00000000100510e8
                 0x0000000020001270                . = ALIGN (0x4)
  *(.uninitialized_data*)
  .uninitialized_data.ram_hash
@@ -4494,19 +4494,19 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  .uninitialized_data.rosc_samples
                 0x0000000020001288        0x8 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010051100
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010051108
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010051100                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010051108                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010051100
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010051108
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010051100                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010051108                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020001290     0xc74c
                 0x0000000020001290                . = ALIGN (0x4)
@@ -4769,8 +4769,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010051100        0x0
-                0x0000000010051100                __flash_binary_end = .
+.flash_end      0x0000000010051108        0x0
+                0x0000000010051108                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4952,7 +4952,7 @@ LOAD CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/cl
 LOAD CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD /tmp/ccNOFb7z.o
+LOAD /tmp/ccDnCcAn.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -5138,7 +5138,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000dbc       0x2c CMakeFiles/picow_connection.dir/home/skarv/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x0000000000000de8       0x22 /tmp/ccNOFb7z.o
+                0x0000000000000de8       0x22 /tmp/ccDnCcAn.o
  .ARM.attributes
                 0x0000000000000e0a       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
