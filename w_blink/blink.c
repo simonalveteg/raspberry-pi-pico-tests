@@ -1,18 +1,43 @@
 #include "pico/stdlib.h"
+#include "pico/multicore.h"
 
-#define GPIO_ON 1
-#define GPIO_OFF 0
 
-#define LED_PIN 16
+/**
+ * Uses two cores to turn on two different external LEDS at different frequencies.
+*/
 
-int main() {
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
+#define GPIO_ON true
+#define GPIO_OFF false
+
+#define LED_PIN_1 15
+#define LED_PIN_2 16
+
+
+void blinkSlow() {
+    gpio_init(LED_PIN_1);
+    gpio_set_dir(LED_PIN_1, GPIO_OUT);
 
     while (true) {
-        gpio_put(LED_PIN, GPIO_ON);
-        sleep_ms(2000);
-        gpio_put(LED_PIN, GPIO_OFF);
-        sleep_ms(2000);
+        gpio_put(LED_PIN_1, GPIO_ON);
+        sleep_ms(500);
+        gpio_put(LED_PIN_1, GPIO_OFF);
+        sleep_ms(500);
     }
+}
+
+void blinkFast() {
+    gpio_init(LED_PIN_2);
+    gpio_set_dir(LED_PIN_2, GPIO_OUT);
+
+    while (true) {
+        gpio_put(LED_PIN_2, GPIO_ON);
+        sleep_ms(100);
+        gpio_put(LED_PIN_2, GPIO_OFF);
+        sleep_ms(100);
+    }
+}
+
+int main() {
+    multicore_launch_core1(blinkFast);
+    blinkSlow();
 }
