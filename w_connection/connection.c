@@ -3,6 +3,10 @@
 #include "pico/cyw43_arch.h"
 #include "secrets.h"
 
+/**
+ * Simply connects to the wifi specified in secrets.h and prints the IP address it gets in the network.
+*/
+
 int main() {
     stdio_init_all();
     sleep_ms(4000);
