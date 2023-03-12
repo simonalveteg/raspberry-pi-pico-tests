@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.12)
 
 # Pull in SDK (must be before project)
 include(pico_sdk_import.cmake)
+#set(PICO_BOARD pico_w)
 
 #include(pico_extras_import_optional.cmake)
 
@@ -22,6 +23,8 @@ pico_sdk_init()
 
 # Add blink
 add_subdirectory(w_blink)
+# Add wifi connection test
+add_subdirectory(w_connecting_to_internet)
 
 add_compile_options(-Wall
         -Wno-format          # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
